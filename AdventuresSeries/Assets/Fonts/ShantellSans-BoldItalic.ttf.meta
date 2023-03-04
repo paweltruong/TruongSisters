@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 2ceb6614be5bee84086f4c898be972af
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Shantell Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c7b75520d48382b40af7d984eb1fe311, type: 3}
+  - {fileID: 12800000, guid: 53599a8c205bbd34c9cc86cb426faf9d, type: 3}
+  - {fileID: 12800000, guid: 65c32c93ab5fee94ea47842d9fe70476, type: 3}
+  - {fileID: 12800000, guid: f41b5645e672b624089dfc95af6603ac, type: 3}
+  - {fileID: 12800000, guid: c92af28b67a241a43a70ee183e26322d, type: 3}
+  - {fileID: 12800000, guid: 2abc5ca0f2ed74e429ac813c26e7018a, type: 3}
+  - {fileID: 12800000, guid: 5871e726ea3536c4a8bb561b99b89b7e, type: 3}
+  - {fileID: 12800000, guid: e1c67671ca19e254d9368040c2899448, type: 3}
+  - {fileID: 12800000, guid: 24ec52942f69edf46acec795b48e50c9, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
