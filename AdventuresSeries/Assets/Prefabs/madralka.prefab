@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 2863715991142412986}
   - component: {fileID: 5154132320057205734}
   - component: {fileID: 6158810203664094692}
+  - component: {fileID: 6904944747679158239}
   m_Layer: 0
   m_Name: madralka
   m_TagString: Untagged
@@ -191,6 +192,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &6904944747679158239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5669899439952159516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b03c77b3ec86af3428ffef3e51f0d7f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6863338923988919125
 GameObject:
   m_ObjectHideFlags: 0
