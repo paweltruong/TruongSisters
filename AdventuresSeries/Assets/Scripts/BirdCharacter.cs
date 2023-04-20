@@ -94,7 +94,7 @@ public class BirdCharacter : MonoBehaviour
 
     public void SetTalking(bool talking)
     {
-        if (_animator)
+        if (_animator == null)
         {
             Debug.LogError("There is no animator on " + gameObject.name);
             return;
