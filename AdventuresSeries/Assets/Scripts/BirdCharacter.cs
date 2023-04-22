@@ -25,6 +25,7 @@ public class BirdCharacter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        _flyTarget = transform.position;
     }
 
     private void Awake()
@@ -46,14 +47,14 @@ public class BirdCharacter : MonoBehaviour
             var toTargetVector = _flyTarget - transform.position;
             var distanceToTarget = toTargetVector.magnitude;
 
-            if (distanceToTarget <= _targetTolerance)
-            {
-                if (_flyTargetNode == null || _flyTargetNode.IsGrounded)
-                {
-                    SetFlying(false);
-                    return;
-                }
-            }
+            //if (distanceToTarget <= _targetTolerance)
+            //{
+            //    if (_flyTargetNode == null || _flyTargetNode.IsGrounded)
+            //    {
+            //        SetFlying(false);
+            //        return;
+            //    }
+            //}
 
             var flyDirection = toTargetVector.normalized;
 
