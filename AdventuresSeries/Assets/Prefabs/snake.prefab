@@ -73,12 +73,12 @@ SpriteRenderer:
   m_SortingLayerID: 350137981
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e9ef6146bfb82bf41a540da9d6f97b9c, type: 3}
+  m_Sprite: {fileID: -1687279652, guid: e9ef6146bfb82bf41a540da9d6f97b9c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 7.97, y: 2.82}
+  m_Size: {x: 1.58, y: 1.35}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -158,12 +158,12 @@ SpriteRenderer:
   m_SortingLayerID: 350137981
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 2e768e9522e77444f99c3761e405ee0d, type: 3}
+  m_Sprite: {fileID: 554437765, guid: 2e768e9522e77444f99c3761e405ee0d, type: 3}
   m_Color: {r: 0.52118194, g: 0.6037736, b: 0.53205657, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 7.97, y: 2.82}
+  m_Size: {x: 0.04, y: 0.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -179,6 +179,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2638208414390793163}
   - component: {fileID: 3972485394277641952}
+  - component: {fileID: 3258872081391606128}
+  - component: {fileID: 3536830998654408027}
   m_Layer: 0
   m_Name: snake
   m_TagString: Untagged
@@ -194,7 +196,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9083711511001906498}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.5, y: 1, z: 15}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -254,3 +256,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &3258872081391606128
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9083711511001906498}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a1cd77e20f9bc6a41b1ad59a4a354ea5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &3536830998654408027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9083711511001906498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3a63f4b4582f9a4787d113490365125, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

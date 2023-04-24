@@ -159,4 +159,9 @@ public class BirdCharacter : MonoBehaviour
         }
         _audioSource.PlayOneShot(randomClip);
     }
+
+    public void Flip()
+    {
+        transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+    }
 }
